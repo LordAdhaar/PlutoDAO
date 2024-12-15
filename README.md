@@ -1,66 +1,14 @@
-## Foundry
+# PlutoDao
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+Welcome to PlutoDao, an innovative project aimed at decentralizing decision-making processes within organizations.
 
-Foundry consists of:
+## Overview
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+PlutoDao is designed to leverage blockchain technology to create a transparent, immutable, and democratic platform where members can vote on proposals, manage funds, and execute decisions autonomously. 
 
-## Documentation
+## Features
 
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+- **Decentralized Governance**: Utilize smart contracts to enable voting rights based on token holdings.
+- **Transparent Proposals**: All decisions are logged on the blockchain for transparency and auditability.
+- **Automated Execution**: Proposals that pass voting thresholds are automatically executed via smart contracts.
+- **Secure**: Built with security in mind, ensuring the integrity of votes and transactions.
